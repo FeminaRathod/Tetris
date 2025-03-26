@@ -37,6 +37,8 @@ Welcome to **Tetris Console Game**, a classic block-stacking puzzle game built i
 ## 🏆 High Score
 The game keeps track of your best score and stores it in `highscore.txt`. Try to beat your own record!
 
+![image alt](https://github.com/FeminaRathod/Tetris/blob/f3d107f887c3edcdc24f1c828bedcd6760c40a6d/Screenshot%202025-03-27%20013448.png)
+
 ## ⚙️ Requirements
 - **Windows OS** (for `windows.h` and `conio.h` support)
 - **C++ Compiler** (MinGW recommended for Windows)
