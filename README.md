@@ -26,7 +26,7 @@ Welcome to the ultimate **Tetris challenge!** This console-based Tetris game bri
 🔄 **R Key** – Restart after game over.  
 
 ---
-
+![image alt](https://github.com/FeminaRathod/Tetris/blob/e1717eabe595b6244dddd3972eb88e222f0c8901/Screenshot%202025-03-31%20231351.png)
 ## 🛠 Installation & Running
 1️⃣ Clone the repository or download the source code:  
    ```sh
