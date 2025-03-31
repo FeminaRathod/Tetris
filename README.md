@@ -1,53 +1,59 @@
-# Tetris Console Game
+# 🎮 Tetris Game (C++)
 
-Welcome to **Tetris Console Game**, a classic block-stacking puzzle game built in C++! This version runs directly in your terminal and features different difficulty levels, real-time keyboard controls, and even sound effects to enhance the experience.
+Welcome to the ultimate **Tetris challenge!** This console-based Tetris game brings back the classic block-stacking fun with exciting modern twists. Designed for Windows, this game includes difficulty levels, a high-score system, ghost pieces, and even a lifeline to save you in tough situations. Can you master the blocks and set a new high score? 🏆
 
-## 🎮 Features
-- **7 Classic Tetrominoes**: The game includes all the familiar Tetris shapes.
-- **Keyboard Controls**: Move, rotate, and drop pieces using simple key inputs.
-- **Three Difficulty Levels**: Choose between Easy, Medium, and Hard.
-- **Obstacle Generation**: Hard mode adds obstacles for an extra challenge.
-- **Scoring System**: Earn points for clearing lines and try to beat your high score!
-- **Sound Effects**: Enjoy sound feedback when placing pieces, clearing lines, and hitting game over.
-- **High Score Tracking**: The game saves your highest score in a file.
+---
 
-## 🕹️ Controls
-- **A** → Move left
-- **D** → Move right
-- **S** → Move down
-- **W** → Rotate piece
-- **Spacebar** → Hard drop
+## 🚀 Features
+✅ **Classic Tetris Gameplay** – Rotate, move, and drop Tetromino pieces to clear lines and score big!  
+✅ **Three Difficulty Levels** – Easy, Medium, and Hard – choose your challenge!  
+✅ **Ghost Piece** – See where your piece will land before you drop it.  
+✅ **Lifeline Feature** – Once per game, clear the bottom three rows to get a fresh start!  
+✅ **High Score System** – Your best score is saved and displayed every time you play.  
+✅ **Obstacles in Hard Mode** – Random blocks spawn to make things extra tricky.  
+✅ **Dynamic Sound Effects** – Moves, rotations, and game-over sounds bring the game to life.  
+✅ **Next Piece Preview** – Plan ahead with a sneak peek at the upcoming Tetromino.  
 
-## 🚀 How to Play
-1. Clone this repository:
+---
+
+## 🎮 Controls
+🎯 **Left/Right Arrow Keys** – Move piece left or right.  
+⬇️ **Down Arrow Key** – Soft drop.  
+🔄 **Up Arrow Key** – Rotate the piece.  
+⏬ **Spacebar** – Hard drop (instantly locks the piece in place).  
+💥 **1 Key** – Use lifeline (if available).  
+⏹ **Esc Key** – Exit the game.  
+🔄 **R Key** – Restart after game over.  
+
+---
+
+## 🛠 Installation & Running
+1️⃣ Clone the repository or download the source code:  
    ```sh
-   git clone https://github.com/your-username/tetris-console-game.git
-   cd tetris-console-game
+   git clone https://github.com/your-username/tetris-game.git
    ```
-2. Compile the game using g++:
-   ```sh
-   g++ tetris.cpp -o tetris -lwinmm
-   ```
-3. Run the game:
-   ```sh
-   ./tetris
-   ```
-4. Select a difficulty level and start stacking blocks!
+2️⃣ Open the project in your favorite C++ development environment (e.g., Visual Studio, CodeBlocks).  
+3️⃣ Compile and run the program.  
+4️⃣ Select your difficulty and **get ready to stack!** 🎲
 
-## 🏆 High Score
-The game keeps track of your best score and stores it in `highscore.txt`. Try to beat your own record!
+---
 
-![image alt](https://github.com/FeminaRathod/Tetris/blob/f3d107f887c3edcdc24f1c828bedcd6760c40a6d/Screenshot%202025-03-27%20013448.png)
+## 📌 Prerequisites
+- A C++ compiler with C++11 support or later (MinGW, MSVC, GCC).  
+- Windows OS (due to dependencies like `windows.h`, `conio.h`).  
 
-## ⚙️ Requirements
-- **Windows OS** (for `windows.h` and `conio.h` support)
-- **C++ Compiler** (MinGW recommended for Windows)
+---
 
-## 🛠️ Possible Enhancements
-- Adding multiplayer mode
-- Implementing a GUI version
-- More game modes (e.g., Marathon, Timed Mode)
+## 📂 File Structure
+📜 `main.cpp` – Contains the core game logic and rendering functions.  
+📄 `highscore.txt` – Stores the highest recorded score.  
 
-## 🎉 Have Fun!
-Enjoy playing Tetris in your terminal, and don't forget to challenge yourself to higher scores!
+---
+
+## 🌟 Future Enhancements
+💡 **GUI Version** – Implement a graphical version using SDL or SFML.  
+🕹 **Multiplayer Mode** – Compete against friends in real-time.  
+🐧 **Cross-Platform Support** – Remove Windows dependencies to support Linux & Mac.  
+
+---
 
